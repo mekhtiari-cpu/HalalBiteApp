@@ -18,44 +18,47 @@ Ensure you have the following installed:
 flutter doctor
 ```
 
-📁 Project Structure
+## 📁 Project Structure
+
 To run the app, you will need:
+
 📂 lib/
 📂 assets/
 📄 pubspec.yaml
 
-lib/: Contains the Dart source code
+- lib/: Contains the Dart source code
 
-assets/: Contains images and other static resources
+- assets/: Contains images and other static resources
 
-pubspec.yaml: Defines dependencies and asset paths
+- pubspec.yaml: Defines dependencies and asset paths
 
-🛠️ Setup Instructions
-1. Download Required Files
+##🛠️ Setup Instructions
+
+###1. Download Required Files
 
 Ensure you have the following in your project root:
-
+```
 lib/ folder
 
 assets/ folder
 
 pubspec.yaml file
+```
+###2. Navigate to the Project Directory
+```cd path_to_your_project```
 
-2. Navigate to the Project Directory
-cd path_to_your_project
+###3.Install Dependencies
+```flutter pub get```
 
-3.Install Dependencies
-flutter pub get
+###4.Run the App
+```flutter run```
 
-4.Run the App
-flutter run
-
-📌 Notes
+##📌 Notes
 Make sure your pubspec.yaml includes the assets/ folder correctly under the flutter: section:
-
+```
 flutter:
   assets:
     - assets/
-
-For best results, use a physical device or emulator configured for your development platform.
+```
+###For best results, use a physical device or emulator configured for your development platform.
 
