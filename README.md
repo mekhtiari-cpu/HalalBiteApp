@@ -54,11 +54,9 @@ pubspec.yaml file
 ```flutter run```
 
 ## 📌 Notes
-Make sure your pubspec.yaml includes the assets/ folder correctly under the flutter: section:
-```
-flutter:
-  assets:
-    - assets/
-```
+Flutter environment and installation set up costs a lot of storage ⚠️ Please ensure you have sufficient storage before you begin installation.
+
+For a more detailed step-by-step guide of setting up your environemnt, follow this link ➡️ https://youtu.be/KdO9B_CZmzo?si=5xkRXWLSiSyNZT7m
+
 For best results, use a physical device or emulator configured for your development platform.
 
