@@ -32,9 +32,9 @@ To run the app, you will need:
 
 - pubspec.yaml: Defines dependencies and asset paths
 
-##🛠️ Setup Instructions
+## 🛠️ Setup Instructions
 
-###1. Download Required Files
+1. Download Required Files
 
 Ensure you have the following in your project root:
 ```
@@ -44,21 +44,21 @@ assets/ folder
 
 pubspec.yaml file
 ```
-###2. Navigate to the Project Directory
+2. Navigate to the Project Directory
 ```cd path_to_your_project```
 
-###3.Install Dependencies
+3.Install Dependencies
 ```flutter pub get```
 
-###4.Run the App
+4.Run the App
 ```flutter run```
 
-##📌 Notes
+## 📌 Notes
 Make sure your pubspec.yaml includes the assets/ folder correctly under the flutter: section:
 ```
 flutter:
   assets:
     - assets/
 ```
-###For best results, use a physical device or emulator configured for your development platform.
+For best results, use a physical device or emulator configured for your development platform.
 
