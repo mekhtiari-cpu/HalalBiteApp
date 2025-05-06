@@ -20,11 +20,7 @@ flutter doctor
 
 ## 📁 Project Structure
 
-To run the app, you will need:
-
-📂 lib/
-📂 assets/
-📄 pubspec.yaml
+To run the app, you will need the following files downloaded on your PC:
 
 - lib/: Contains the Dart source code
 
@@ -44,13 +40,13 @@ assets/ folder
 
 pubspec.yaml file
 ```
-2. Navigate to the Project Directory
+2. Navigate to the Project Directory (you can do this and the following steps on the Android Studio application too)
 ```cd path_to_your_project```
 
-3.Install Dependencies
+3. Install Dependencies
 ```flutter pub get```
 
-4.Run the App
+4. Run the App
 ```flutter run```
 
 ## 📌 Notes
