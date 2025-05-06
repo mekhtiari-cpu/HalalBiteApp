@@ -16,6 +16,7 @@ Ensure you have the following installed:
 > To verify Flutter is set up correctly:
 ```bash
 flutter doctor
+```
 
 📁 Project Structure
 To run the app, you will need:
